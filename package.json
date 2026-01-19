@@ -1,0 +1,23 @@
+{
+  "name": "bot-vendas-xmp",
+  "version": "1.0.0",
+  "description": "Sistema de vendas e gerenciamento de licenças XMP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.3.0",
+    "libsodium-wrappers": "^0.8.1",
+    "mysql2": "^3.9.2"
+  }
+}
